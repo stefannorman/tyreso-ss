@@ -1,0 +1,322 @@
+a:link {text-decoration: none;}
+a:visited {text-decoration: none; color:blue;}
+a:hover { text-decoration: underline;}
+a:active { text-decoration: none; color:blue;}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #666;
+}
+#wrapper {
+	float: left;
+	width: 1079px;
+	margin-top: 2px;
+	background-color: #fff;
+}
+#sponsors {
+	float: left;
+	width: 250px;
+	margin-top: 2px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+#header {
+	height: 140px;
+	width: 1069px;
+}
+#header .logotype{
+	float: left;
+	border: 0px;
+	margin: 25px 2px 2px 5px;
+}
+#header .banner {
+	width: 809px;
+	height: 112px;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	visibility: hidden;
+}
+#header .infoBox {
+}
+#main {
+	width: 1069px;
+	background-color: #fff;
+}
+#menuColumn {
+	float: left;
+	width: 218px;
+	background-color:#f00;
+	margin-left: 5px;
+}
+#menuColumn ul {
+	background-color: #f00;
+	list-style: none;
+}
+#menuColumn ul li {
+	margin-top: 5px;
+	margin-left: -25px;
+}
+#menuColumn ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+}
+#menuColumn ul li a:hover {
+	text-decoration: underline;
+	color:#ff0;
+}
+#menuColumn ul li ul li a {
+	font-weight: normal;
+	font-size: 10px;
+}
+#contentColumn {
+	float: left;
+	width: 556px;
+	margin-left: 5px;
+}
+#contentColumn.ckeditorColumn{
+	width: 800px;
+}
+
+/* st�rde FCKEditor i Firefox
+#contentColumn iframe {
+	width: 550px;
+	height: 500px;
+	border: none;
+}
+*/
+#rightColumn {
+	float: left;
+	width: 250px;
+	margin-left: 5px;
+}
+
+/* <kansliet online included stuff> */
+#rightColumn #header,
+#rightColumn #menuroot,
+#rightColumn #accordion,
+#rightColumn .box-header,
+#rightColumn .box-footer,
+#rightColumn .content_summary,
+#rightColumn #column-right,
+#rightColumn #bottom {
+	display:none;
+}
+.box h2 {
+	font-weight:bold;
+	font-size:14px;
+	padding: 2px;
+}
+.box .head-row {
+	font-weight:bold;
+	font-size:12px;
+	padding: 4px;
+}
+/* </kansliet online included stuff> */
+
+#footer {
+	clear:both;
+}
+.box{
+	width:100%;
+	border:1px solid #f00;
+}
+.box .header {
+	color:#fff;
+	background-color:#f00;
+	font-weight:bold;
+	font-size:12px;
+	text-align: center;
+	padding: 2px;
+}
+.box .header h1 {
+	font-size: 12px;
+	font-weight: bold;
+	padding:0px;
+	margin:0px;
+	display:inline;
+}
+.box .content{
+	padding: 2px;
+}
+.box .content UL {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.box .coaches {
+	text-align:center;
+}
+.box .coaches img {
+	width:100px;
+	margin-top:10px
+}
+
+.divider {
+	line-height: 8px;
+}
+.line {
+	clear:both;
+	border:none;
+	border-bottom: 2px dotted #ccc;
+}
+.portrait {
+	border:1px solid #000;
+	float: right;
+}
+.newsdate {
+	color:gray;
+	float:right;
+}
+.newsheader {
+	font-weight:bold;
+	font-size:11px;
+}
+.mailicon {
+	float:left;
+	margin-right:5px;
+}
+
+.loginBox {
+	width: 200px;
+	margin-left: 300px;
+	margin-top: 100px;
+}
+.loginBox FORM {
+	text-align:center;
+}
+/* CALENDAR */
+.vcalendar {
+	margin: 0 0 0 0;
+	padding: 0;
+}
+.vevent {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 5px 0 0 0;
+	border-bottom: 1px solid #000;
+}
+.vevent P {
+	margin: 0 0 5px 0;
+	padding-left: 46px;
+}
+.vevent H3 {
+	margin: 0 0 0 0;
+	font-weight: bold;
+}
+.vevent .category,
+.vevent .location {
+	color: #999;
+	text-transform: uppercase;
+	font-size: 0.9167em;
+	letter-spacing: -0.03em;
+}
+.vevent .image {
+	float: left;
+}
+
+
+/* DATE TAB */
+.vevent .date {
+	float: left;
+	display: block;
+	width: 36px;
+	margin: 0px 3px 5px; 0;
+	color: white;
+}
+
+.vevent .dtstart .day,
+.vevent .dtstart .month {
+	display: block;
+	background: url(../images/bg_calendarLeaf.gif) top left no-repeat;
+	text-align: center;
+}
+.vevent .dtstart .day {
+	font-weight: bold;
+	padding: 5px 0 3px 0;
+	font-size: 1.3333em;
+}
+.vevent .dtstart .month {
+	background-position: bottom left;
+	padding: 1px 0 2px 0;
+	font-size: 0.9167em;
+}
+
+
+.calendarPost {
+	margin:0 0 2px;
+}
+
+.calendarPost .tab {
+	margin:0 5px 0 0;
+}
+
+.calendarPost .divider {
+	clear:both;
+}
+
+.tab {
+	background:#009CBB;
+	color:white;
+	float:left;
+	font-family:arial,helvetica,sans-serif;
+	line-height:1;
+	margin:0 5px 0 0;
+	padding:2px 0 2px;
+	text-align:center;
+	width:28px;
+}
+.tab .date {
+	display:block;
+	font-size:20px;
+	font-weight:bold;
+}
+.tab .month {
+	display:block;
+	border-top:1px solid #72C2D9;
+	font-size:9px;
+	padding:1px 0 1px;
+	text-transform:uppercase;
+}
+
+.centered {
+	text-align:center;
+}
+
+.error {
+	color:Red;
+	font-weight:bold;
+}
+
+.ok {
+	color:Green;
+	font-weight:bold;
+}
+
+.cms_toolbar{
+	width:100%;
+	border:1px solid #000;
+	background-color:#ccc;
+	text-align:left;
+	margin-left:-2px;
+	padding:1px;
+	font-size:11px;
+}
+.cms_toolbar IMG{
+	vertical-align:bottom;
+}
+
+#uploadDiv {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-color: #6699CC;
+	display:none;
+}
+#uploadIframe {
+	width: 240px;
+	height: 70px;
+
+}

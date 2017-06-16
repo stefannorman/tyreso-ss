@@ -1,0 +1,1 @@
+ <SCRIPT LANGUAGE=VBScript RUNAT=Server>   SUB Session_OnStart   ' This is the default authentication status   Session("AuthUser") = null END SUB </SCRIPT>
